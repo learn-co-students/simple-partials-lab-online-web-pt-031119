@@ -1,4 +1,4 @@
- require "rails_helper"
+require "rails_helper"
 
 RSpec.describe "create and edit form" do
   describe 'create form' do
@@ -52,3 +52,4 @@ RSpec.describe "create and edit form" do
     end
   end
 end
+ 
