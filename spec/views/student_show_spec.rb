@@ -1,4 +1,4 @@
- require "rails_helper"
+require "rails_helper"
 
 RSpec.describe "show_view" do
   let(:classroom) { Classroom.create(course_name: 'Math', semester: "Spring #{Time.now.year}") }
@@ -46,4 +46,3 @@ RSpec.describe "show_view" do
     expect(rendered).to render_template(:partial => "students/_student")
   end
 end
- 
